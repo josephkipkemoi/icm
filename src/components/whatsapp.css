@@ -4,3 +4,13 @@
     bottom: 0;
     right: 32px;
 }
+
+@media only screen and (max-width: 600px) {
+.whatsapp-btn {
+    display: flex;
+    flex-direction: row;
+}
+.whatsapp-btn svg{
+    width: 72px;
+}
+}
