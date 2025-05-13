@@ -23,7 +23,7 @@ const Footer = () => {
                                     +254-704-734-454 
                             </p>                           
                         </div>
-                        <a  href="https://wa.me/254795216873" target="_blank" className="d-flex align-items-center nav-link">
+                        <a href="https://wa.me/254795216873" target="_blank" rel="noreferrer" className="d-flex align-items-center nav-link">
                                 <FontAwesomeIcon className="m-1" icon={faPhoneFlip} />            
                                 <p className="m-1">WhatsApp: +254-795-216-873</p>                                      
                         </a>
