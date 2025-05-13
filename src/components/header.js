@@ -6,6 +6,7 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import Logo from "../images/logo512.png"
 
 const Header = () => {
     return (
@@ -55,7 +56,7 @@ const HeaderComponent = () => {
         <Navbar.Brand >
         <h1 className="fw-bold text-primary ">
             <Link to="/" className="text-decoration-none">
-                ICM
+            <img src={Logo} alt="logo" className="img-fluid"/>
             </Link>                    
         </h1> 
         </Navbar.Brand>
