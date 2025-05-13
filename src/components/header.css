@@ -1,0 +1,33 @@
+header {
+    /* background-image: url("../images/bg-image.png"); */
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+   background-color: #f2f2f2;
+   color: white;
+   position: sticky;
+   top: 0;
+   z-index: 2;
+   opacity: .8;
+}
+.nav-container {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.nav-media-link button{
+    border-radius: 50%;
+    padding: 6px;
+    border: none;
+}
+
+.nav-media-link svg{
+    width: 32px;
+    height: 32px;
+}
+
+nav {
+    background-color: #f2f2f2;
+    position: sticky;
+    top: 0;
+}

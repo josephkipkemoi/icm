@@ -1,0 +1,99 @@
+{
+    "data": 
+        {
+            "farming": [
+                {
+                    "id": 1,
+                    "blog_img_url": "https://images.pexels.com/photos/1656663/pexels-photo-1656663.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                    "blog_title": "Top 5 Easy-to-Grow Vegetables for Beginners",
+                    "blog_author": "Priya Sharma, Horticulture Specialist",
+                    "blog_published_on": "3rd Dec, 2025",
+                    "blog_category": "Farming",
+                    "blog_post": "These are the 5 easy ways to grow vegetables for Beginners"
+                },
+                {
+                    "id": 2,
+                    "blog_img_url": "https://images.pexels.com/photos/1435904/pexels-photo-1435904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                    "blog_title": "Seeds of Change: How Tiny Grains Can Shape Our Future",
+                    "blog_author": "Maya R. Thorne",
+                    "blog_published_on": "12th Dec, 2025",
+                    "blog_category": "Farming",
+                    "blog_post": "These are the 5 easy ways to grow vegetables for Beginners"
+                },
+                {
+                    "id": 3,
+                    "blog_img_url": "https://images.pexels.com/photos/1400172/pexels-photo-1400172.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                    "blog_title": "From Soil to Sprout: The Science Behind Seed Germination",
+                    "blog_author": "Dr. Karan Mehta",
+                    "blog_published_on": "11th Jan, 2025",
+                    "blog_category": "Farming",
+                    "blog_post": "These are the 5 easy ways to grow vegetables for Beginners"
+                },
+                {
+                    "id": 4,
+                    "blog_img_url": "https://images.pexels.com/photos/1367242/pexels-photo-1367242.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                    "blog_title": "Heirloom Dreams: Preserving the Past Through Seeds",
+                    "blog_author": "Lila Gomez",
+                    "blog_published_on": "12th Feb, 2025",
+                    "blog_category": "Farming",
+                    "blog_post": "These are the 5 easy ways to grow vegetables for Beginners"
+                },
+                {
+                    "id": 5,
+                    "blog_img_url": "https://images.pexels.com/photos/244393/pexels-photo-244393.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                    "blog_title": "The Secret Life of Seeds: A Gardener’s Guide to Saving and Sowing",
+                    "blog_author": "Oliver Grant",
+                    "blog_published_on": "12th Mar, 2025",
+                    "blog_category": "Farming",
+                    "blog_post": "These are the 5 easy ways to grow vegetables for Beginners"
+                }
+            ],
+            "crop_rotation": [
+                {
+                    "id": 6,
+                    "blog_img_url": "https://images.pexels.com/photos/89267/pexels-photo-89267.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                    "blog_title": "Turning the Soil Smartly: The Power of Crop Rotation in Modern Farming",
+                    "blog_author": "Priya Nandakumar",
+                    "blog_published_on": "12th Mar, 2025",
+                    "blog_category": "Crop_Rotation",
+                    "blog_post": "These are the 5 easy ways to grow vegetables for Beginners"
+                },
+                {
+                    "id": 7,
+                    "blog_img_url": "https://images.pexels.com/photos/121629/pexels-photo-121629.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                    "blog_title": "From Ancient Wisdom to Sustainable Practice: A Deep Dive into Crop Rotation",
+                    "blog_author": "Marcus LeBlanc",
+                    "blog_published_on": "12th Mar, 2025",
+                    "blog_category": "Crop_Rotation",
+                    "blog_post": "These are the 5 easy ways to grow vegetables for Beginners"
+                },
+                {
+                    "id": 8,
+                    "blog_img_url": "https://images.pexels.com/photos/65174/pexels-photo-65174.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                    "blog_title": "Why Your Soil Needs a Break: The Science Behind Crop Rotation",
+                    "blog_author": "Dr. Evelyn Chang",
+                    "blog_published_on": "12th Mar, 2025",
+                    "blog_category": "Crop_Rotation",
+                    "blog_post": "These are the 5 easy ways to grow vegetables for Beginners"
+                },
+                {
+                    "id": 9,
+                    "blog_img_url": "https://images.pexels.com/photos/1656664/pexels-photo-1656664.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                    "blog_title": "Greener Fields Ahead: How Crop Rotation Boosts Yield and Reduces Pests",
+                    "blog_author": "Jamal Otieno",
+                    "blog_published_on": "12th Mar, 2025",
+                    "blog_category": "Crop_Rotation",
+                    "blog_post": "These are the 5 easy ways to grow vegetables for Beginners"
+                },
+                {
+                    "id": 10,
+                    "blog_img_url": "https://images.pexels.com/photos/45914/paprika-vegetables-food-market-45914.jpeg?auto=compress&cs=tinysrgb&w=600",
+                    "blog_title": "The Rotating Revolution: Regenerating Soil Health One Season at a Time",
+                    "blog_author": "Sofia Almeida",
+                    "blog_published_on": "12th Mar, 2025",
+                    "blog_category": "Crop_Rotation",
+                    "blog_post": "These are the 5 easy ways to grow vegetables for Beginners"
+                }
+            ]
+        }       
+}

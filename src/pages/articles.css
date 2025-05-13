@@ -1,0 +1,10 @@
+.article img {
+    max-width: 320px;
+    max-height: 220px;
+}
+.blog-container {
+    width: 320px;
+    max-height: 520px;
+    overflow:hidden;
+    cursor: pointer;
+}

@@ -1,0 +1,14 @@
+footer {
+    position: relative;
+    width: 100vw;
+    background-color: rgba(0, 100, 0, 0.685);
+}
+.footer-container img {
+    width: 18px;
+}
+.footer-container svg {
+    width: 32px;
+}
+.footer-container button {
+    max-height: 72px;
+}

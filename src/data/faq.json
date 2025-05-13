@@ -1,0 +1,44 @@
+{
+    "data": [
+        {
+            "question_title": "What types of seeds do you sell?",
+            "question_answer": "We offer a wide variety of seeds, including vegetable seeds, flower seeds, herb seeds, fruit seeds, and organic/non-GMO options."
+        },
+        {
+            "question_title": "Are your seeds non-GMO?",
+            "question_answer": "Yes, we provide non-GMO seeds. Each product label or description clearly mentions whether it is non-GMO or certified organic."
+        },
+        {
+            "question_title": "Do you ship seeds internationally?",
+            "question_answer": "Yes, we ship seeds to many countries. However, shipping depends on local import regulations. Please check your country's customs policy before placing an order."
+        },
+        {
+            "question_title": "How should I store seeds if I’m not planting them immediately?",
+            "question_answer": "Store seeds in a cool, dry place away from sunlight. Airtight containers or zip-lock bags in a refrigerator or dark cabinet work best."
+        },
+        {
+            "question_title": "What is the shelf life of your seeds?",
+            "question_answer": "Most seeds remain viable for 1–3 years if stored properly. Some seeds (like onions) may have a shorter life, while others (like tomatoes or beans) can last longer."
+        },
+        {
+            "question_title": "Do you guarantee seed germination?",
+            "question_answer": "Yes. We follow strict quality testing. If your seeds fail to germinate under proper conditions, please contact us for a replacement or refund."
+        },
+        {
+            "question_title": "When is the best time to plant your seeds?",
+            "question_answer": "This depends on the seed variety and your location. We include recommended planting seasons and zones on each seed packet."
+        },
+        {
+            "question_title": "Do you offer bulk seed orders for farms or retailers?",
+            "question_answer": "Yes, we offer wholesale and bulk pricing. Please contact our sales team for a custom quote."
+        },
+        {
+            "question_title": "How do I know which seeds are best for my region?",
+            "question_answer": "You can use our online planting zone guide or contact us with your location — we’re happy to recommend suitable varieties."
+        },
+        {
+            "question_title": "Can I return unused seeds?",
+            "question_answer": "Due to quality control and storage standards, we generally do not accept returns on seeds. However, if there’s a problem with your order, contact us and we’ll make it right."
+        }
+    ]
+}

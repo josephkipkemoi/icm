@@ -1,0 +1,7 @@
+.product-container img {
+    width: 320px;
+    height: auto;
+}
+.product-container-box {
+    cursor: pointer;
+}
