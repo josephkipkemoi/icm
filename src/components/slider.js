@@ -18,7 +18,7 @@ const SliderComponent = () => {
                         <Link to="/products" className="btn btn-primary btn-lg">View Products</Link>
                     </div>                  
                 </div>
-                <Carousel className="col col-8 col-8-sm slider-img-container ">
+                <Carousel className="col col-8 col-8-sm slider-img-container carousel-mobile">
                     <Carousel.Item interval={2000}>
                         <img
                             className="img-fluid d-block w-100 rounded-4"

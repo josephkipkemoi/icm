@@ -6,3 +6,8 @@
     max-height: 620px;
     width: 100%;
 }
+@media only screen and (max-width: 600px) {
+ .carousel-mobile {
+    display: none;
+}
+}
