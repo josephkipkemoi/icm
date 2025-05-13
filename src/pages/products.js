@@ -179,6 +179,63 @@ const ProductComponent = () => {
                         )
                     })}                   
                 </div> 
+                <hr className="text-success mt-5 mb-5" />      
+                <h2 className="fw-bold mb-3">Spinach Seeds</h2>
+                <div className="d-sm-flex flex-wrap justify-content-start product-container-box">
+                    {ProductData.data.spinach.map((value, index) => {
+                        const { product_name, id, product_image_url, product_category } = value
+                        return (
+                        <Link to={`/products/category/${product_category}/${id}`} className="card shadow nav-link border-0 rounded-4 m-2" key={index}>
+                            <div className="card card-body border-0 rounded-4">
+                                <img 
+                                src={product_image_url}
+                                alt="cabbage" 
+                                className="img-fluid rounded-4"
+                                />
+                                <h5 className="mt-4">{product_name}</h5>
+                            </div>
+                        </Link>
+                        )
+                    })}                   
+                </div> 
+                <hr className="text-success mt-5 mb-5" />      
+                <h2 className="fw-bold mb-3">Watermellon Seeds</h2>
+                <div className="d-sm-flex flex-wrap justify-content-start product-container-box">
+                    {ProductData.data.watermellon.map((value, index) => {
+                        const { product_name, id, product_image_url, product_category } = value
+                        return (
+                        <Link to={`/products/category/${product_category}/${id}`} className="card shadow nav-link border-0 rounded-4 m-2" key={index}>
+                            <div className="card card-body border-0 rounded-4">
+                                <img 
+                                src={product_image_url}
+                                alt="cabbage" 
+                                className="img-fluid rounded-4"
+                                />
+                                <h5 className="mt-4">{product_name}</h5>
+                            </div>
+                        </Link>
+                        )
+                    })}                   
+                </div> 
+                <hr className="text-success mt-5 mb-5" />      
+                <h2 className="fw-bold mb-3">Onion Seeds</h2>
+                <div className="d-sm-flex flex-wrap justify-content-start product-container-box">
+                    {ProductData.data.onion.map((value, index) => {
+                        const { product_name, id, product_image_url, product_category } = value
+                        return (
+                        <Link to={`/products/category/${product_category}/${id}`} className="card shadow nav-link border-0 rounded-4 m-2" key={index}>
+                            <div className="card card-body border-0 rounded-4">
+                                <img 
+                                src={product_image_url}
+                                alt="cabbage" 
+                                className="img-fluid rounded-4"
+                                />
+                                <h5 className="mt-4">{product_name}</h5>
+                            </div>
+                        </Link>
+                        )
+                    })}                   
+                </div> 
             </div>
         </div>
     )
