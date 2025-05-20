@@ -3,13 +3,23 @@ import Header from "../components/header"
 import WhatsAppComponent from "../components/whatsapp"
 
 const DeliveryPage = () => {
+    const topRef = useRef(null)
+    const {pathname} = useLocation()
+    const scrollToTop = () => {
+        topRef.current?.scrollIntoView({ behavior: 'smooth' })
+    }
+
+    useEffect(() => {
+        scrollToTop()
+    }, [pathname])
+
     return (
-        <>
+        <div ref={topRef}>
             <Header/>
             <DeliveryComponent/>
             <WhatsAppComponent/>
             <Footer/>
-        </>
+        </div>
     )
 }
 
