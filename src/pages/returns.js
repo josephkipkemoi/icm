@@ -1,15 +1,27 @@
+import { useEffect, useRef } from "react"
 import Footer from "../components/footer"
 import Header from "../components/header"
 import WhatsAppComponent from "../components/whatsapp"
+import { useLocation } from "react-router-dom"
 
 const ReturnPage = () => {
+    const topRef = useRef(null)
+    const {pathname} = useLocation()
+    const scrollToTop = () => {
+        topRef.current?.scrollIntoView({ behavior: 'smooth' })
+    }
+
+    useEffect(() => {
+        scrollToTop()
+    }, [pathname])
+
     return (
-        <>
+        <div ref={topRef}>
             <Header/>
             <ReturnsComponent/>
             <WhatsAppComponent/>
             <Footer/>
-        </>
+        </div>
     )
 }
 
