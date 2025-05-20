@@ -6,8 +6,18 @@ import { Link } from "react-router-dom"
 import WhatsAppComponent from "../components/whatsapp"
 
 const ArticlePage = () => {
+    const topRef = useRef(null)
+    const {pathname} = useLocation()
+    const scrollToTop = () => {
+        topRef.current?.scrollIntoView({ behavior: 'smooth' })
+    }
+
+    useEffect(() => {
+        scrollToTop()
+    }, [pathname])
+
     return (
-        <div>
+        <div ref={topRef}>
             <Header/>
             <ArticleComponent/>
             <WhatsAppComponent/>
