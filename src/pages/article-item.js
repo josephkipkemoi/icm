@@ -1,13 +1,24 @@
-import { useParams } from "react-router-dom"
+import { useLocation, useParams } from "react-router-dom"
 import Footer from "../components/footer"
 import Header from "../components/header"
 import ArticleData from "../data/blog.json"
 import "./article-item.css"
 import SocialMediaLinksComponent from "../components/social-media-links"
+import { useEffect, useRef } from "react"
 
 const ArticleItemPage = () => {
+    const topRef = useRef(null)
+    const {pathname} = useLocation()
+    const scrollToTop = () => {
+        topRef.current?.scrollIntoView({ behavior: 'smooth' })
+    }
+
+    useEffect(() => {
+        scrollToTop()
+    }, [pathname])
+
     return (
-        <div>
+        <div ref={topRef}>
             <Header/>
             <ArticleItemComponent/>
             <Footer/>
