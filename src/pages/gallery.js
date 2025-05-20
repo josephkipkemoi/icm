@@ -1,11 +1,23 @@
+import { useEffect, useRef } from "react"
 import Footer from "../components/footer"
 import Header from "../components/header"
 import WhatsAppComponent from "../components/whatsapp"
 import GalleryData from "../data/images.json"
+import { useLocation } from "react-router-dom"
 
 const GalleryPage = () => {
+    const topRef = useRef(null)
+    const {pathname} = useLocation()
+    const scrollToTop = () => {
+        topRef.current?.scrollIntoView({ behavior: 'smooth' })
+    }
+
+    useEffect(() => {
+        scrollToTop()
+    }, [pathname])
+
     return (
-        <div>
+        <div ref={topRef}>
             <Header/>
             <GalleryComponent/>     
             <WhatsAppComponent/>      
