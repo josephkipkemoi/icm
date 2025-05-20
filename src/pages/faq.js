@@ -1,12 +1,24 @@
+import { useEffect, useRef } from "react"
 import Footer from "../components/footer"
 import Header from "../components/header"
 import SupportComponent from "../components/support"
 import WhatsAppComponent from "../components/whatsapp"
 import FaqData from "../data/faq.json"
+import { useLocation } from "react-router-dom"
 
 const FAQ = () => {
+    const topRef = useRef(null)
+    const {pathname} = useLocation()
+    const scrollToTop = () => {
+        topRef.current?.scrollIntoView({ behavior: 'smooth' })
+    }
+
+    useEffect(() => {
+        scrollToTop()
+    }, [pathname])
+
     return (
-        <div>
+        <div ref={topRef}>
             <Header/>       
             <FAQComponent/>
             <SupportComponent/>
