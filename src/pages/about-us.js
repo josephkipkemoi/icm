@@ -4,10 +4,22 @@ import Header from "../components/header"
 import WhatsAppComponent from "../components/whatsapp"
 import "./about-us.css"
 import { faLocation, faMessage, faPhone } from "@fortawesome/free-solid-svg-icons"
+import { useEffect, useRef } from "react"
+import { useLocation } from "react-router-dom"
 
 const AboutUsPage = () => {
+    const topRef = useRef(null)
+    const {pathname} = useLocation()
+    const scrollToTop = () => {
+        topRef.current?.scrollIntoView({ behavior: 'smooth' })
+    }
+
+    useEffect(() => {
+        scrollToTop()
+    }, [pathname])
+
     return (
-        <div>
+        <div ref={topRef}>
             <Header/>
             <AboutUsComponent/>
             <WhatsAppComponent/>
