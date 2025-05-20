@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import Footer from './components/footer';
 import Header from './components/header';
 import SliderComponent from './components/slider';
@@ -6,10 +6,21 @@ import SupportComponent from './components/support';
 import WhatsAppComponent from './components/whatsapp';
 import ProductData from "./data/products.json"
 import "./App.css"
+import { useEffect, useRef } from 'react';
 
 function App() {
+    const topRef = useRef(null)
+    const {pathname} = useLocation()
+    const scrollToTop = () => {
+        topRef.current?.scrollIntoView({ behavior: 'smooth' })
+    }
+
+    useEffect(() => {
+        scrollToTop()
+    }, [pathname])
+
   return (
-    <div >
+    <div ref={topRef}>
       <Header/>
       <SliderComponent/>  
       <CabbageProductsComponent/>
