@@ -3,11 +3,21 @@ import Header from "../components/header"
 import WhatsAppComponent from "../components/whatsapp"
 import "./product.css"
 import ProductData from "../data/products.json"
-import { Link } from "react-router-dom"
+import { Link, useLocation } from "react-router-dom"
+import { useEffect, useRef } from "react"
 
 const ProductPage = () => {
+    const topRef = useRef(null)
+    const {pathname} = useLocation()
+    const scrollToTop = () => {
+        topRef.current?.scrollIntoView({ behavior: 'smooth' })
+    }
+
+    useEffect(() => {
+        scrollToTop()
+    }, [pathname])
     return (
-        <div>
+        <div ref={topRef}>
             <Header/>
             <ProductComponent/>
             <WhatsAppComponent/>

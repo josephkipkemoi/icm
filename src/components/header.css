@@ -1,14 +1,9 @@
 header {
-    /* background-image: url("../images/bg-image.png"); */
-    /* background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; */
    background-color: #f2f2f2;
    color: white;
    position: sticky;
    top: 0;
    z-index: 2;
-   opacity: .8;
 }
 .nav-container {
     position: sticky;
