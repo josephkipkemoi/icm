@@ -1,6 +1,8 @@
+import { useEffect, useRef } from "react"
 import Footer from "../components/footer"
 import Header from "../components/header"
 import WhatsAppComponent from "../components/whatsapp"
+import { useLocation } from "react-router-dom"
 
 const DeliveryPage = () => {
     const topRef = useRef(null)
