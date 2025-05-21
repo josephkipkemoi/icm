@@ -4,7 +4,7 @@ import Header from "../components/header"
 import { faClock, faDirections, faLocation, faMessage, faPhone, faPhoneFlip } from "@fortawesome/free-solid-svg-icons"
 import "./contact-us.css"
 import WhatsAppComponent from "../components/whatsapp"
-import { useEffect, useRef } from "react"
+import { useEffect, useRef, useState } from "react"
 import { useLocation } from "react-router-dom"
 
 const ContactPage = () => {
@@ -100,30 +100,71 @@ const ContactComponent = () => {
                         </div>                                  
                     </div>
                 </div> 
-                <div  className="col-sm">
-                    <p>
-                        If you’d prefer not to use our contact form, feel free to send us an email directly or give us a call. We’d love to hear from you! Here’s our direct email and phone number.
-                    </p>
-                    <div className="mt-3">
-                        <label className="d-block mb-3">Name*</label>
-                        <input className="form-control p-3" placeholder="Enter full name"/>
-                    </div>
-                    <div className="mt-3">
-                        <label className="d-block mb-3">Email*</label>
-                        <input className="form-control p-3" placeholder="Enter full name"/>
-                    </div>
-                    <div className="mt-3">
-                        <label className="d-block mb-3">Message*</label>
-                        <textarea className="form-control p-3" placeholder="Enter message"/>
-                    </div>
-                    <div className="mt-3">
-                        <button className="btn btn-light" disabled>Captcha</button>
-                    </div>
-                    <button className="btn btn-success w-50 p-2 mt-4">Submit</button>
-                </div>
-            </div>
-                     
+                
+                <ContactFormComponent/>
+
+            </div>                     
         </div>
+    )
+}
+
+const ContactFormComponent = () => {
+    const [contactForm, setContactForm] = useState({
+        name: '',
+        email: '',
+        message: ''
+    })
+
+    const { name, email, message } = contactForm
+
+    const handleChange = (e) => setContactForm((prev) => ({...prev, [e.target.name]: e.target.value}))
+
+    const handleSubmit = () => {
+        console.log(contactForm)
+    }
+
+    return (
+    <div  className="col-sm">
+        <p>
+            If you’d prefer not to use our contact form, feel free to send us an email directly or give us a call. We’d love to hear from you! Here’s our direct email and phone number.
+        </p>
+        <div className="mt-3">
+            <label className="d-block mb-3">Name*</label>
+            <input 
+                className="form-control p-3" 
+                placeholder="Enter full name"
+                type="text"
+                name="name"
+                value={name}
+                onChange={handleChange}
+            />
+        </div>
+        <div className="mt-3">
+            <label className="d-block mb-3">Email*</label>
+            <input 
+                className="form-control p-3" 
+                placeholder="Enter email"
+                type="email"
+                name="email"
+                value={email}
+                onChange={handleChange}
+            />
+        </div>
+        <div className="mt-3">
+            <label className="d-block mb-3">Message*</label>
+            <textarea 
+                className="form-control p-3" 
+                placeholder="Enter message"
+                value={message}
+                name="message"
+                onChange={handleChange}
+            />
+        </div>
+        <div className="mt-3">
+            <button className="btn btn-light" disabled>Captcha</button>
+        </div>
+        <button className="btn btn-success w-50 p-2 mt-4" onClick={handleSubmit}>Submit</button>
+    </div>
     )
 }
 
@@ -139,5 +180,6 @@ const GeoLocationComponent = () => {
         </div>
     )
 }
+
 
 export default ContactPage
