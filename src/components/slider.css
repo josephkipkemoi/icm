@@ -6,6 +6,10 @@
     max-height: 620px;
     width: 100%;
 }
+.slider-main-component {
+    background: linear-gradient(#20544a, #99c184);
+    color: white;
+}
 @media only screen and (max-width: 600px) {
  .carousel-mobile {
     display: none;

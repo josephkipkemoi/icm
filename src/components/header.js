@@ -7,11 +7,14 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Logo from "../images/logo512.png"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
     return (
-        <header className="bg-light">
+        <header className="nav-bg-component">
             <SocialMediaLinksComponent/>
+            <hr/>
             <HeaderComponent/>
         </header>
     )
@@ -19,8 +22,8 @@ const Header = () => {
 
 const SocialMediaLinksComponent = () => {
     return (
-        <div className="nav-media-link d-flex justify-content-end align-items-center m-2">
-            <button className=" text-light">
+        <div className="nav-media-link d-flex justify-content-end align-items-center p-1">
+            <button className="text-light">
                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
                     <linearGradient id="Ld6sqrtcxMyckEl6xeDdMa_uLWV5A9vXIPu_gr1" x1="9.993" x2="40.615" y1="9.993" y2="40.615" gradientUnits="userSpaceOnUse"><stop offset="0" stopColor="#2aa4f4"></stop><stop offset="1" stopColor="#007ad9"></stop></linearGradient><path fill="url(#Ld6sqrtcxMyckEl6xeDdMa_uLWV5A9vXIPu_gr1)" d="M24,4C12.954,4,4,12.954,4,24s8.954,20,20,20s20-8.954,20-20S35.046,4,24,4z"></path><path fill="#fff" d="M26.707,29.301h5.176l0.813-5.258h-5.989v-2.874c0-2.184,0.714-4.121,2.757-4.121h3.283V12.46 c-0.577-0.078-1.797-0.248-4.102-0.248c-4.814,0-7.636,2.542-7.636,8.334v3.498H16.06v5.258h4.948v14.452 C21.988,43.9,22.981,44,24,44c0.921,0,1.82-0.084,2.707-0.204V29.301z"></path>
                 </svg>
@@ -51,79 +54,83 @@ const SocialMediaLinksComponent = () => {
 
 const HeaderComponent = () => {
     return (
-    <Navbar expand="lg" className="bg-body-tertiary" sticky="top">
-      <Container fluid>
-        <Navbar.Brand >
-        <h1 className="fw-bold text-primary ">
-            <Link to="/" className="text-decoration-none">
-            <img src={Logo} alt="logo" className="img-fluid"/>
-            </Link>                    
-        </h1> 
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
-          <Nav
-            className="me-auto my-2 my-lg-0"
-            style={{ maxHeight: '100px' }}
-            navbarScroll
-          >
-            <Link to="/" className="nav-link text-decoration-none text-dark"> 
-                    Home
-            </Link>                
-            <Link to="/products" className="nav-link text-decoration-none text-dark"> 
-                    Products
-            </Link> 
-            <Link to="/services" className="nav-link text-decoration-none text-dark"> 
-                    Services
-            </Link> 
-            <Link to="/gallery" className="nav-link text-decoration-none text-dark"> 
-                    Gallery
-            </Link> 
-            <Link to="/articles" className="nav-link text-decoration-none text-dark"> 
-                    Articles
-            </Link> 
-            <Link to="/contact-us" className="nav-link text-decoration-none text-dark"> 
-                    Contact Us
-            </Link> 
-            <NavDropdown title="About Us" id="navbarScrollingDropdown">
-              <NavDropdown.Item>
-                <Link to="/about-us" className="text-decoration-none text-dark"> 
-                    About Us
-                </Link>                
-            </NavDropdown.Item>
-              <NavDropdown.Item >
-                 <Link to="/returns" className="text-decoration-none text-dark"> 
-                    Returns
-                </Link>
-              </NavDropdown.Item>
-              <NavDropdown.Item>
-                <Link to="/delivery" className="text-decoration-none text-dark"> 
-                    Delivery
-                </Link>                
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item >
-                <Link to="/careers" className="text-decoration-none text-dark"> 
-                    Careers
-                </Link> 
-              </NavDropdown.Item>
-            </NavDropdown>    
-                <Link to="/faq" className="nav-link text-decoration-none text-dark"> 
-                    FAQ
-                </Link> 
-          </Nav>
-          <Form className="d-flex">
-            <Form.Control
-              type="search"
-              placeholder="Search"
-              className="me-2"
-              aria-label="Search"
-            />
-            <Button variant="outline-success">Search</Button>
-          </Form>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+        <div className="nav-bg-component">
+            <Navbar variant="none" expand="lg" className=" nav-bg" sticky="top">
+                <Container fluid className="nav-bg-component">
+                    <Navbar.Brand className="nav-bg-component">
+                    <h1 className="fw-bold text-primary ">
+                        <Link to="/" className="text-decoration-none">
+                            <img src={Logo} alt="logo" className="img-fluid rounded-4 p-2"/>
+                        </Link>                    
+                    </h1> 
+                    </Navbar.Brand>
+                    <Navbar.Toggle aria-controls="navbarScroll" className="nav-bg-component" />
+                    <Navbar.Collapse id="navbarScroll"  className="nav-bg-component">
+                    <Nav
+                        className="me-auto my-2 my-lg-0 nav-bg-component text-light"
+                        style={{ maxHeight: '100px' }}
+                        navbarScroll
+                    >
+                        <Link to="/" className="nav-link text-decoration-none text-light"> 
+                                Home
+                        </Link>   
+                          <NavDropdown className="text-light" title="About Us" id="navbarScrollingDropdown">
+                        <NavDropdown.Item>
+                            <Link to="/about-us" className="text-decoration-none text-dark"> 
+                                About Us
+                            </Link>                
+                        </NavDropdown.Item>
+                        <NavDropdown.Item >
+                            <Link to="/returns" className="text-decoration-none text-dark"> 
+                                Returns
+                            </Link>
+                        </NavDropdown.Item>
+                        <NavDropdown.Item>
+                            <Link to="/delivery" className="text-decoration-none text-dark"> 
+                                Delivery
+                            </Link>                
+                        </NavDropdown.Item>
+                        <NavDropdown.Divider />
+                        <NavDropdown.Item >
+                            <Link to="/careers" className="text-decoration-none text-dark"> 
+                                Careers
+                            </Link> 
+                        </NavDropdown.Item>
+                        </NavDropdown>                 
+                        <Link to="/products" className="nav-link text-decoration-none text-light"> 
+                                Products
+                        </Link> 
+                        <Link to="/services" className="nav-link text-decoration-none text-light"> 
+                                Services
+                        </Link> 
+                        <Link to="/gallery" className="nav-link text-decoration-none text-light"> 
+                                Gallery
+                        </Link> 
+                        <Link to="/articles" className="nav-link text-decoration-none text-light"> 
+                                Articles
+                        </Link> 
+                        <Link to="/contact-us" className="nav-link text-decoration-none text-light"> 
+                                Contact Us
+                        </Link>
+                        <Link to="/faq" className="nav-link text-decoration-none text-light"> 
+                                FAQ
+                        </Link> 
+                    </Nav>
+                    <Form className="d-flex">
+                        <Form.Control
+                            type="search"
+                            placeholder="Search"
+                            className="me-2"
+                            aria-label="Search"
+                        />
+                        <Button variant="warning">
+                            <FontAwesomeIcon icon={faSearch} />
+                        </Button>
+                    </Form>
+                    </Navbar.Collapse>
+                </Container>
+                </Navbar>
+        </div>
     )
 }
 
