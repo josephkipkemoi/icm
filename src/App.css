@@ -1,3 +1,6 @@
 .product-container-box {
     overflow-x: scroll;
 }
+.product-item-card {
+    background: linear-gradient(#20544a, #99c184);
+}

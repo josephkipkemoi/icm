@@ -253,7 +253,7 @@ const ProductComponent = () => {
 
 const CabbageComponent = () => {
     return (
-    <div className="d-sm-flex flex-wrap justify-content-start product-container-box">
+    <div className="d-sm-flex flex-wrap justify-content-start product-container-box ">
                     {ProductData.data.cabbage.map((value, index) => {
                         const { product_name, id, product_image_url, product_category } = value
                         return (
