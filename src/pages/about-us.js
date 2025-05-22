@@ -41,23 +41,30 @@ Partnering with globally recognized seed breeders, research institutions, and re
             <div className="mt-5">
                 <h2 className="text-danger fw-bold">Our Mission</h2>
                 <p>
-                    To empower growers of all sizes with access to healthy, reliable seeds that contribute to sustainable agriculture, food security, and the joy of growing.
+                    To help farmers and agricultural partners improve productivity and sustainability through reliable products, practical services and continued support.
                 </p>
                 <h2 className="text-danger fw-bold">Our Vision</h2>
                 <p>
-                    To empower growers of all sizes with access to healthy, reliable seeds that contribute to sustainable agriculture, food security, and the joy of growing.
+                    To play a leading role in improving agriculture by delivering quality seeds, reliable  services, and knowledge that support sustainable farming and thriving agricultural sectors.
                 </p>
                 <h2 className="text-danger fw-bold">Who We Are</h2>
                 <p>
                     We are a passionate team of horticulturists, farmers, and seed specialists who understand the power of a well-grown plant. Whether you’re sowing your first garden or managing acres of farmland, we are here to help you succeed — from seed to harvest.
                 </p>
+                 <h2 className="text-danger fw-bold">Goals</h2>
+                <ul>
+                    <li>Provide high-quality seeds suited to local growing conditions.</li>
+                    <li>Conduct accurate and dependable pesticide trials to support product development.</li>
+                    <li>Offer clear and timely laboratory servoces for crop and soil health.</li>
+                    <li>Build agricultural knowledge through hands-on training and guidance.</li>
+                    <li>Work closely with clients to address everyday farming challenges.</li>
+                </ul>
                 <h2 className="text-danger fw-bold">What We Offer</h2>
                 <ul>
-                    <li><strong>Vegetable Seeds</strong> – From everyday staples like tomatoes and carrots to unique heirloom varieties.</li>
-                    <li><strong>Flower Seeds</strong> – Annuals, perennials, and pollinator-friendly blooms.</li>
-                    <li><strong>Specialized Training</strong> – For home cooks, herbalists, and kitchen gardeners.</li>
-                    <li><strong>Organic & Non-GMO Seeds</strong> – Verified for purity, safety, and environmental health.</li>
-                    <li><strong>Bulk & Custom Orders</strong> – Serving farms, garden centers, schools, and institutions.</li>
+                    <li><strong>Vegetable Seed Merchandising</strong> </li>
+                    <li><strong>Pesticide Efficacy Trials</strong></li>
+                    <li><strong>Laboratory Services</strong></li>
+                    <li><strong>Professional Training & Capacity Building</strong></li>
                 </ul>
                 <p>Each seed is carefully tested for germination rate, purity, and disease resistance to ensure you receive the very best.</p>
                 <h2 className="text-danger fw-bold">Our Values</h2>

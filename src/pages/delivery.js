@@ -45,7 +45,7 @@ const DeliveryComponent = () => {
             <p>
                 <li>Standard Delivery: 2–5 business days (depending on location)</li>
                 <li>Same-Day or Next-Day Delivery: May be available in select urban areas (e.g., Nairobi) for orders placed before 12 PM</li>
-                <li>Deliveries are made during working hours: Monday to Saturday, 8:00 AM – 5:00 PM </li>
+                <li>Deliveries are made during working hours: Monday to Friday, 8:00 AM – 5:00 PM </li>
                 Please note that delivery times are estimates and not guaranteed, especially during peak seasons or in remote areas.
            </p>
             <h2 className="fw-bold">3. Delivery Charges</h2>

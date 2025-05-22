@@ -2,7 +2,7 @@
     "data": [
         {
             "question_title": "What types of seeds do you sell?",
-            "question_answer": "We offer a wide variety of seeds, including vegetable seeds, flower seeds, herb seeds, fruit seeds, and organic/non-GMO options."
+            "question_answer": "We offer a wide variety of seeds, including vegetable seeds, fruit seeds and organic/non-GMO options."
         },
         {
             "question_title": "Are your seeds non-GMO?",
@@ -22,11 +22,11 @@
         },
         {
             "question_title": "Do you guarantee seed germination?",
-            "question_answer": "Yes. We follow strict quality testing. If your seeds fail to germinate under proper conditions, please contact us for a replacement or refund."
+            "question_answer": "Yes. We follow strict quality testing. If your seeds fail to germinate under proper conditions, please contact us."
         },
         {
             "question_title": "When is the best time to plant your seeds?",
-            "question_answer": "This depends on the seed variety and your location. We include recommended planting seasons and zones on each seed packet."
+            "question_answer": "This depends on the seed variety and your location."
         },
         {
             "question_title": "Do you offer bulk seed orders for farms or retailers?",
@@ -34,7 +34,7 @@
         },
         {
             "question_title": "How do I know which seeds are best for my region?",
-            "question_answer": "You can use our online planting zone guide or contact us with your location — we’re happy to recommend suitable varieties."
+            "question_answer": "You can contact us with your location — we’re happy to recommend suitable varieties."
         },
         {
             "question_title": "Can I return unused seeds?",
