@@ -26,6 +26,7 @@ function App() {
       <Header/>
       <SliderComponent/>  
       <ServicesComponent/>
+        <h2 className='fw-bold text-light fw-bold rounded-4 shadow m-3 text-center bg-success p-3 ' >Cabbage Seeds</h2>
       <CabbageProductsComponent/>
       <SupportComponent/>
       <WhatsAppComponent/>
@@ -37,9 +38,10 @@ function App() {
 const CabbageProductsComponent = () => {
   return (
     <div className='landing-component-container'>
+      
       <hr className='text-info'/>
       <div className='p-3 mb-5'>
-            <h2 className='fw-bold text-danger m-3'>Cabbage Seeds</h2>
+          
             <div className="row justify-content-around product-container-box">
                 {ProductData.data.cabbage.map((value, index) => {
                   const { product_name, id, product_image_url, product_category } = value
@@ -72,7 +74,7 @@ const ServicesComponent = () => {
   return (
     <div className='p-3 text-center service-seeds-component '>
       <h1 className='mt-4 mb-5 fw-bold text-light'>Curated list of Services</h1>
-      <div className='d-sm-flex justify-content-center mb-5'>
+      <div className='row justify-content-center mb-5'>
         <div className='card shadow-lg p-5  m-2 rounded-4 product-item-card service-seeds-component-sz text-light'>
           <FontAwesomeIcon icon={faSeedling} size='6x' className='m-3 text-light' />
           <h3 className='text-center fw-bold mt-4'>Vegetable Seed <br/> Merchandising</h3>
