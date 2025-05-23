@@ -28,7 +28,7 @@ const ScrollToTopComponent = () => {
     }, [pathname, isVisible])
 
     return (
-        <button onClick={handleBtn} className={`${isVisible ? " show-scroll " : " hide-scroll "} btn btn-lg d-flex flex-column justify-content-center scroll-to-top`}>
+        <button onClick={handleBtn} className={`${isVisible ? " show-scroll " : " hide-scroll "} btn btn-lg d-flex flex-column align-items-center justify-content-center scroll-to-top`}>
             <FontAwesomeIcon className="text-warning" icon={faArrowUp} size="2x" />
             <small className="text-warning">Scroll to Top</small>
         </button>

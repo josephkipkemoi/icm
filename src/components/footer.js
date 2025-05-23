@@ -35,14 +35,14 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="col-sm">
-                    <h6 className="fw-bold">Press Releases</h6>
+                    <h6 className="fw-bold mt-3">Press Releases</h6>
                     <hr/>
                     <div>
                         <Link className="nav-link mt-3"  to="/careers">Careers</Link>
                     </div>
                 </div>
                 <div className="col-sm">
-                    <h6 className="fw-bold">Information</h6>
+                    <h6 className="fw-bold  mt-3">Information</h6>
                     <hr/>
                     <div>
                         <Link to="/returns" className="nav-link mt-3">Returns</Link>
@@ -52,7 +52,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="col-sm">
-                    <h6 className="fw-bold">Legal Information</h6>
+                    <h6 className="fw-bold  mt-3">Legal Information</h6>
                     <hr/>
                     <div>
                         <Link to="/terms-of-service" className="nav-link mt-3">Terms of Service</Link>
@@ -62,7 +62,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="col-sm">
-                    <h6 className="fw-bold">Social Media Links</h6>
+                    <h6 className="fw-bold  mt-3">Social Media Links</h6>
                     <hr/>
                     <div>
                        <SocialMediaLinksComponent/>
