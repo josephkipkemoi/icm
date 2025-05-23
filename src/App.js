@@ -9,6 +9,7 @@ import "./App.css"
 import { useEffect, useRef } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMicroscope, faSeedling, faUserDoctor, faVialCircleCheck } from '@fortawesome/free-solid-svg-icons';
+import ScrollToTopComponent from './components/scrollToTop';
 
 function App() {
     const topRef = useRef(null)
@@ -26,10 +27,11 @@ function App() {
       <Header/>
       <SliderComponent/>  
       <ServicesComponent/>
-        <h2 className='fw-bold text-light fw-bold rounded-4 shadow m-3 text-center bg-success p-3 ' >Cabbage Seeds</h2>
+      <h2 className='fw-bold text-light fw-bold rounded-4 shadow m-3 text-center bg-success p-3 ' >Cabbage Seeds</h2>
       <CabbageProductsComponent/>
       <SupportComponent/>
       <WhatsAppComponent/>
+      <ScrollToTopComponent/>
       <Footer/>
     </div>
   );
@@ -37,11 +39,8 @@ function App() {
 
 const CabbageProductsComponent = () => {
   return (
-    <div className='landing-component-container'>
-      
-      <hr className='text-info'/>
-      <div className='p-3 mb-5'>
-          
+    <div className='landing-component-container'>      
+      <div className='p-3 mb-5'>          
             <div className="row justify-content-around product-container-box">
                 {ProductData.data.cabbage.map((value, index) => {
                   const { product_name, id, product_image_url, product_category } = value
