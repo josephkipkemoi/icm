@@ -38,22 +38,25 @@ const CabbageProductsComponent = () => {
   return (
     <div className='landing-component-container'>
       <hr className='text-info'/>
-      <div className='p-3 mb-5 container'>
+      <div className='p-3 mb-5'>
             <h2 className='fw-bold text-danger m-3'>Cabbage Seeds</h2>
             <div className="row justify-content-around product-container-box">
                 {ProductData.data.cabbage.map((value, index) => {
                   const { product_name, id, product_image_url, product_category } = value
                     return (
-                      <Link to={`/products/category/${product_category}/${id}`} className="card shadow col-sm-3 nav-link border-0 rounded-4 m-1 mb-5" key={index}>
-                          <div className="d-flex justify-content-between card card-body border-0 rounded-4 product-item-card">
+                      <Link to={`/products/category/${product_category}/${id}`} className=" col-sm-3 nav-link border-0 rounded-4 m-1 mb-5" key={index}>
+                          <div className="d-flex flex-column justify-content-between border-0 rounded-4 product-cart-item text-left">
                             <img 
                               src={product_image_url}
                               alt="cabbage"  
-                              className="img-fluid rounded-4 p-2 m-2 bg-light"
+                              className="img-fluid rounded-4 p-1 bg-light shadow"
                             />              
-                            <h5 className="mt-2 fw-bold text-light">
-                              {product_name}
-                            </h5>
+                            <div className='d-flex justify-content-center'>
+                              <h5 className=" fw-bold text-dark btn  mt-4 rounded-5 shadow btn-lg d-flex justify-content-center">
+                                {product_name}
+                              </h5>
+                            </div>
+                          
                           </div>
                       </Link>
                     )
@@ -70,19 +73,19 @@ const ServicesComponent = () => {
     <div className='p-3 text-center service-seeds-component '>
       <h1 className='mt-4 mb-5 fw-bold text-light'>Curated list of  <br/> Services</h1>
       <div className='d-sm-flex justify-content-center mb-5'>
-        <div className='card shadow-lg p-5 border-0 m-2 rounded-4 product-item-card service-seeds-component-sz text-light'>
+        <div className='card shadow-lg p-5  m-2 rounded-4 product-item-card service-seeds-component-sz text-light'>
           <FontAwesomeIcon icon={faSeedling} size='6x' className='m-3 text-light' />
           <h3 className='text-center fw-bold mt-4'>Vegetable Seed <br/> Merchandising</h3>
         </div>
-        <div className='card shadow-lg p-5 border-0 m-2 rounded-4 product-item-card service-seeds-component-sz text-light'>
+        <div className='card shadow-lg p-5  m-2 rounded-4 product-item-card service-seeds-component-sz text-light'>
            <FontAwesomeIcon icon={faVialCircleCheck} size='6x' className='m-3 text-light' />
           <h3 className='text-center fw-bold mt-4'>Pesticide Efficacy <br/> Trials</h3>
         </div>
-        <div className='card shadow-lg p-5 border-0 m-2 rounded-4 product-item-card service-seeds-component-sz text-light'>
+        <div className='card shadow-lg p-5 m-2 rounded-4 product-item-card service-seeds-component-sz text-light'>
           <FontAwesomeIcon icon={faMicroscope} size='6x' className='m-3 text-light' />
           <h3 className='text-center fw-bold mt-4'>Laboratory Services</h3>
         </div>
-        <div className='card shadow-lg p-5 border-0 m-2 rounded-4 product-item-card service-seeds-component-sz text-light'>
+        <div className='card shadow-lg p-5  m-2 rounded-4 product-item-card service-seeds-component-sz text-light'>
            <FontAwesomeIcon icon={faUserDoctor} size='6x' className='m-3 text-light' />
             <h3 className='text-center fw-bold mt-4'>Professional Training <br/> & Capacity Building</h3>
         </div>

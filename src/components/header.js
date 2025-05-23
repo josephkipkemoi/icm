@@ -13,8 +13,8 @@ import { faSearch } from "@fortawesome/free-solid-svg-icons";
 const Header = () => {
     return (
         <header className="nav-bg-component">
-            <SocialMediaLinksComponent/>
-            <hr/>
+            {/* <SocialMediaLinksComponent/>
+            <hr/> */}
             <HeaderComponent/>
         </header>
     )
@@ -55,7 +55,7 @@ const SocialMediaLinksComponent = () => {
 const HeaderComponent = () => {
     return (
         <div className="nav-bg-component">
-            <Navbar variant="none" expand="lg" className=" nav-bg" sticky="top">
+            <Navbar variant="none" expand="lg" className=" nav-bg" >
                 <Container fluid className="nav-bg-component">
                     <Navbar.Brand className="nav-bg-component">
                     <h1 className="fw-bold text-primary ">

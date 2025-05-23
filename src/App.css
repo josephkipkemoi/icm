@@ -5,9 +5,21 @@
     /* background: linear-gradient(#99c184, #99c184); */
     background-color: rgba(114, 85, 22, 0.534);
 }
- 
+.product-cart-item h5{
+    background-color: rgba(245, 245, 245, 0.589);
+    width: 320px;
+    text-align: center;
+}
 .landing-component-container {
-    background-color: #D4EFC6;
+    background-image: url("./images/bg.png"); 
+     background-position: center;
+      background-size: cover; 
+    background-repeat: no-repeat;
+     background-color: #D4EFC6; 
+}
+.landing-component-container img {
+    width: 420px;
+    height: 380px;
 }
 .service-seeds-component {
     background-color: #75bc4b;
@@ -19,4 +31,6 @@
 }
 .service-seeds-component-sz {
     width: 360px;
+    border: 4px solid white;
+    background-color: #46dbc0;
 }
