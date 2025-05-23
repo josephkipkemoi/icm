@@ -2,6 +2,7 @@ footer {
     position: relative;
     width: 100vw;
     background-color: rgba(0, 100, 0, 0.685);
+      background: linear-gradient(#20544a, rgba(0, 100, 0, 0.685));
 }
 .footer-container img {
     width: 18px;

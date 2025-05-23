@@ -14,7 +14,7 @@ const SliderComponent = () => {
                 <div className="col-sm d-flex flex-column justify-content-center text-center">
                     <h1 className="fw-bolder">GROW YOUR PERFECT GARDEN WITH <strong className="text-warning">PREMIUM SEEDS</strong></h1>
                     <p className="mt-4 mb-5">
-                        Discover our curated collection of high-quality seeds for beautiful flowers, nutritious vegetables, and aromatic herbs.
+                        Discover our curated collection of high-quality seeds for nutritious vegetables and fruits.
                     </p>                   
                     <div>
                     <Link to="/products" className="btn btn-warning btn-lg">

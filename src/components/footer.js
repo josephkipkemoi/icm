@@ -6,7 +6,7 @@ import SocialMediaLinksComponent from "./social-media-links"
 
 const Footer = () => {
     return (
-        <footer className="p-5 text-light footer-container">
+        <footer className="p-5 text-light footer-container pb-2">
             <div className="row">
                 <div className="col-sm">
                     <h6 className="fw-bold">Contact</h6>
@@ -31,10 +31,7 @@ const Footer = () => {
                             <FontAwesomeIcon className="m-1" icon={faMessage} />
                             <p className="m-1">Email: info@icm.co.ke</p>
                         </div>
-                        <div className="mt-1">
-                            <span className="d-block">Social Media Links:</span>
-                            <SocialMediaLinksComponent/>                       
-                        </div>
+                     
                     </div>
                 </div>
                 <div className="col-sm">
@@ -64,11 +61,17 @@ const Footer = () => {
                         <Link to="/terms-of-use" className="nav-link mt-3">Terms of Use</Link>
                     </div>
                 </div>
+                <div className="col-sm">
+                    <h6 className="fw-bold">Social Media Links</h6>
+                    <hr/>
+                    <div>
+                       <SocialMediaLinksComponent/>
+                    </div>
+                </div>
             </div>
-            <div className="text-center mt-4">
+            <div className="text-center mt-1">
                 <p>Copyright &copy; 2025 | All Rights Reserved | Powered by RiftKoders</p>
-            </div>
-           
+            </div>           
         </footer>
     )
 }

@@ -2,6 +2,14 @@
     height: auto;
     overflow: hidden;
 }
+.slider-main-component h1 {
+    font-size: 52px;
+    line-height: 82px;
+}
+.slider-main-component p {
+    line-height: 42px;
+    font-size: 24px;
+}
 .slider-img-container img {
     max-height: 620px;
     width: 100%;
