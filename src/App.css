@@ -1,6 +1,22 @@
 .product-container-box {
-    overflow-x: scroll;
+    overflow-x: none;
 }
 .product-item-card {
-    background: linear-gradient(#20544a, #99c184);
+    /* background: linear-gradient(#99c184, #99c184); */
+    background-color: rgba(114, 85, 22, 0.534);
+}
+ 
+.landing-component-container {
+    background-color: #D4EFC6;
+}
+.service-seeds-component {
+    background-color: #75bc4b;
+    opacity: 0.8;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #75bc4b 9px ), repeating-linear-gradient( #79484855, #794848 );
+}
+.service-seeds-component h1 {
+    font-size: 52px;
+}
+.service-seeds-component-sz {
+    width: 360px;
 }
