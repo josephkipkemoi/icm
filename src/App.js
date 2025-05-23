@@ -71,7 +71,7 @@ const CabbageProductsComponent = () => {
 const ServicesComponent = () => {
   return (
     <div className='p-3 text-center service-seeds-component '>
-      <h1 className='mt-4 mb-5 fw-bold text-light'>Curated list of  <br/> Services</h1>
+      <h1 className='mt-4 mb-5 fw-bold text-light'>Curated list of Services</h1>
       <div className='d-sm-flex justify-content-center mb-5'>
         <div className='card shadow-lg p-5  m-2 rounded-4 product-item-card service-seeds-component-sz text-light'>
           <FontAwesomeIcon icon={faSeedling} size='6x' className='m-3 text-light' />
