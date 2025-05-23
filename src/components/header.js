@@ -67,15 +67,15 @@ const HeaderComponent = () => {
                     <Navbar.Toggle aria-controls="navbarScroll" className="nav-bg-component" />
                     <Navbar.Collapse id="navbarScroll"  className="nav-bg-component">
                     <Nav
-                        className="me-auto my-2 my-lg-0 nav-bg-component text-light"
+                        className="me-auto my-2 my-lg-0 nav-bg-component"
                         style={{ maxHeight: '100px' }}
                         navbarScroll
                     >
-                        <Link to="/" className="nav-link text-decoration-none text-light"> 
+                        <Link to="/" className="nav-link text-decoration-none"> 
                                 Home
                         </Link>   
-                          <NavDropdown className="text-light" title="About Us" id="navbarScrollingDropdown">
-                        <NavDropdown.Item>
+                        <NavDropdown className="text-light" title="About Us" id="navbarScrollingDropdown">
+                        <NavDropdown.Item className="nav-drop-down">
                             <Link to="/about-us" className="text-decoration-none text-dark"> 
                                 About Us
                             </Link>                
@@ -97,22 +97,22 @@ const HeaderComponent = () => {
                             </Link> 
                         </NavDropdown.Item>
                         </NavDropdown>                 
-                        <Link to="/products" className="nav-link text-decoration-none text-light"> 
+                        <Link to="/products" className="nav-link text-decoration-none"> 
                                 Products
                         </Link> 
-                        <Link to="/services" className="nav-link text-decoration-none text-light"> 
+                        <Link to="/services" className="nav-link text-decoration-none"> 
                                 Services
                         </Link> 
-                        <Link to="/gallery" className="nav-link text-decoration-none text-light"> 
+                        <Link to="/gallery" className="nav-link text-decoration-none"> 
                                 Gallery
                         </Link> 
-                        <Link to="/articles" className="nav-link text-decoration-none text-light"> 
+                        <Link to="/articles" className="nav-link text-decoration-none"> 
                                 Articles
                         </Link> 
-                        <Link to="/contact-us" className="nav-link text-decoration-none text-light"> 
+                        <Link to="/contact-us" className="nav-link text-decoration-none"> 
                                 Contact Us
                         </Link>
-                        <Link to="/faq" className="nav-link text-decoration-none text-light"> 
+                        <Link to="/faq" className="nav-link text-decoration-none"> 
                                 FAQ
                         </Link> 
                     </Nav>
