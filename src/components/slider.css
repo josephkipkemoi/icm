@@ -3,8 +3,8 @@
     overflow: hidden;
 }
 .slider-main-component h1 {
-    font-size: 52px;
-    line-height: 82px;
+    font-size:clamp(2.5rem, 3.5vw, 3rem);
+    line-height: 62px;
 }
 .slider-main-component p {
     line-height: 42px;
