@@ -27,7 +27,7 @@
     background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #75bc4b 9px ), repeating-linear-gradient( #79484855, #794848 );
 }
 .service-seeds-component h1 {
-    font-size: 52px;
+      font-size:clamp(2.5rem, 3.5vw, 3rem);
 }
 .service-seeds-component-sz {
     width: 360px;
