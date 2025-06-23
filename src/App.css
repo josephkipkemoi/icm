@@ -18,8 +18,8 @@
      background-color: #D4EFC6; 
 }
 .landing-component-container img {
-    width: 420px;
-    height: 380px;
+    width: auto;
+    height: auto;
 }
 .service-seeds-component {
     background-color: #75bc4b;
