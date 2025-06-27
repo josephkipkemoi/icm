@@ -6,13 +6,13 @@ const SupportComponent = () => {
     return (
         <div className="mt-2 mb-5 bg-light">
             <div className="d-flex justify-content-center">
-                <div className="mt-5 mb-5">
-                    <h1 className="text-danger fw-bold text-center ">Support</h1>
-                    <p className="mt-3">If you have any questions, get in touch with our support</p>
+                <div className="mt-5 mb-5 text-center">
+                    <h1 className="text-danger fw-bold text-center ">Contact Support</h1>
+                    <p className="m-3">If you have any questions, get in touch with our support team</p>
                 </div>  
             </div>          
-            <div className="d-flex justify-content-around">
-                <div className="text-center">
+            <div className="d-sm-flex justify-content-around">
+                <div className="text-center m-4">
                     <h1 className="text-danger text-center m-4">
                         <FontAwesomeIcon icon={faPhone} />
                     </h1>                   
@@ -20,7 +20,7 @@ const SupportComponent = () => {
                     <h5>+254-704-734-454</h5>
                     <p>The best way to get answers fast.</p>
                 </div>
-                <div className="text-center">
+                <div className="text-center m-4">
                     <h1 className="text-danger text-center m-4">
                         <FontAwesomeIcon icon={faMessage} />
                     </h1>  
