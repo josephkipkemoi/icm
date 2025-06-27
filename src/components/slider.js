@@ -25,7 +25,14 @@ const SliderComponent = () => {
                     </Link>
                     </div>                  
                 </div>
-                <Carousel className="col col-8 col-8-sm slider-img-container bg-light p-2 m-2 rounded-4 carousel-mobile shadow-lg">
+                <Carousel className="col col-8 col-8-sm slider-img-container bg-light p-1 m-2 rounded-4 carousel-mobile shadow-lg">
+                    <Carousel.Item interval={2000}>
+                        <img
+                            className="img-fluid d-block rounded-4"
+                            src="https://i.ibb.co/wF98NxGS/fieldwork.jpg"
+                            alt="Fourth slide"
+                        />
+                    </Carousel.Item>
                     <Carousel.Item interval={2000}>
                         <img
                             className="img-fluid d-block w-100 rounded-4"
@@ -47,6 +54,7 @@ const SliderComponent = () => {
                             alt="Third slide"
                         />
                     </Carousel.Item>
+                    
                 </Carousel>
             </div>
            
