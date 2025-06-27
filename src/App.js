@@ -27,8 +27,8 @@ function App() {
       <Header/>
       <SliderComponent/>  
       <ServicesComponent/>
-      <h2 className='fw-bold text-light fw-bold rounded-4 shadow m-3 text-center bg-success p-3 ' >Cabbage Seeds</h2>
-      <CabbageProductsComponent/>
+      <h2 className='fw-bold text-light fw-bold rounded-1 shadow-lg m-3 text-center bg-success p-3 ' >Best Sellers: Quality Seeds</h2>
+      <BestSellerProductsComponent/>
       <SupportComponent/>
       <WhatsAppComponent/>
       <ScrollToTopComponent/>
@@ -37,16 +37,16 @@ function App() {
   );
 }
 
-const CabbageProductsComponent = () => {
+const BestSellerProductsComponent = () => {
   return (
     <div className='landing-component-container'>      
       <div className='p-3 mb-5'>          
             <div className="row justify-content-around product-container-box">
-                {ProductData.data.cabbage.map((value, index) => {
+                {ProductData.data.mixed_seeds.map((value, index) => {
                   const { product_name, id, product_image_url, product_category } = value
                     return (
                       <Link to={`/products/category/${product_category}/${id}`} className=" col-sm-3 nav-link border-0 rounded-4 m-1 mb-5" key={index}>
-                          <div className="d-flex flex-column justify-content-between border-0 rounded-4 product-cart-item text-left">
+                          <div className="d-flex flex-column justify-content-between align-items-center border-0 rounded-4 product-cart-item text-left">
                             <img 
                               src={product_image_url}
                               alt="cabbage"  

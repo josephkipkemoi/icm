@@ -428,6 +428,98 @@
                 "product_image_url": "https://i.ibb.co/gLM0Q1bd/whitechan.png",
                 "product_category": "onion"
             }
+        ],
+        "mixed_seeds": [
+              {
+                "id":1,
+                "product_name": "MALAIKA F1",
+                "product_germination": "",
+                "product_ready_for_harvest": "Ready for harvest in 90 - 100 days after transplanting",
+                "product_head": "Large compact global head of 5 – 7 kg",
+                "product_head_bursting": "Tolerant to head bursting",
+                "product_shelf_life": "Good for distant transport with long shelf life",
+                "product_spacing": "50cm x 60cm",
+                "product_package_size": [5,10,25,50,100,250,500,1000],
+                "product_image_url": "https://i.ibb.co/S7tC5D98/malaika.jpg",
+                "product_category": "cabbage"
+            }, 
+            {
+                "id":1,
+                "product_name": "BROCOLLI F1",
+                "product_germination": "",
+                "product_ready_for_harvest": "Ready for harvest in 90 - 100 days after transplanting",
+                "product_head": "Large compact global head of 5 – 7 kg",
+                "product_head_bursting": "Tolerant to head bursting",
+                "product_shelf_life": "Good for distant transport with long shelf life",
+                "product_spacing": "50cm x 60cm",
+                "product_package_size": [5,10,25,50,100,250,500,1000],
+                "product_image_url": "https://i.ibb.co/S7tC5D98/malaika.jpg",
+                "product_category": "cabbage"
+            },
+            {
+                "id":4,
+                "product_name": "RED CROWN F1",
+                "product_germination": "",
+                "product_ready_for_harvest": "Early maturity:70 – 75 days",
+                "product_head": "Round head size of 2 -3 kg",
+                "product_head_bursting": "Hot tolerant variety",
+                "product_shelf_life": "Resistant to black rot",
+                "product_spacing": "40cm x 45cm",
+                "product_package_size": [5,10,25,50,100,250,500,1000],
+                "product_image_url": "https://i.ibb.co/vxxR9b0p/redcrownf1.png",
+                "product_category": "cabbage" 
+            },
+            {
+                "id":21,
+                "product_name": "TAMU 3 F1",
+                "product_germination": "Ripe: 32 days after pollination ",
+                "product_ready_for_harvest": "Maturity: 95 – 100 DAYS",
+                "product_fruits": "Fruit: 12 – 15 kg, green with stripes, oval shaped",
+                "product_head": "Rind thickness :1.1 cm",
+                "product_head_bursting": "Sweetness: 13.2 0Bx",
+                "product_shelf_life": "",
+                "product_yield": "Red flesh",
+                "product_setting": "Resistant to Fusarium wilt",
+                "product_spacing": "",
+                "product_health": "Tolerant to powdery mildew",
+                "product_package_size": [5,10,25,50,100,250,500,1000],
+                "product_image_url": "https://i.ibb.co/sv8Xsg5R/tamuf1.png",
+                "product_category": "watermellon"
+            },
+            {
+                "id":12,
+                "product_name": "SULTANA F1",
+                "product_germination": "",
+                "product_ready_for_harvest": "Maturity is around 110 days",
+                "product_fruits": "Long oval and jointed red fruits",
+                "product_head": "Tolerant to bacterial wilt",
+                "product_head_bursting": "",
+                "product_shelf_life": "",
+                "product_yield": "Weight of 110-120grams",
+                "product_setting": "",
+                "product_spacing": "",
+                "product_health": "Resistant to verticillium wilt, root knot, nematodes, gray leaf spot, Tomato leaf curl virus(TYLCV),Tomato Mosaic Virus (ToMV) and Tomato Wilt Virus (TWV)",
+                "product_package_size": [5,10,25,50,100,250,500,1000],
+                "product_image_url": "https://i.ibb.co/Ps39g80c/sultanaf1.png",
+                "product_category": "tomatoe"
+            },
+            {
+                "id":17,
+                "product_name": "SUPERIOR F1",
+                "product_germination": "",
+                "product_ready_for_harvest": "Maturity: 90 days after transplanting",
+                "product_fruits": "",
+                "product_head": "",
+                "product_head_bursting": "",
+                "product_shelf_life": "Shelf life: 3 weeks after harvest",
+                "product_yield": "Fruit weight: 200 – 230g",
+                "product_setting": "Shape: blocky with 3-4 lobed fruit flesh",
+                "product_spacing": "Yield: 25-30 tons/ acre (open field) and 50-60 tons in the (green house).",
+                "product_health": "Resistant: Tobacco mosaic virus and Pepper Montle Virus",
+                "product_package_size": [5,10,25,50,100,250,500,1000],
+                "product_image_url": "https://i.ibb.co/YFSwzV6h/superiorf1.png",
+                "product_category": "capsicum"
+            }
         ]
     }
 }
