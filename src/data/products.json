@@ -25,7 +25,7 @@
                 "product_shelf_life": "Good for distant transport with long shelf life",
                 "product_spacing": "50cm x 60cm",
                 "product_package_size": [5,10,25,50,100,250,500,1000],
-                "product_image_url": "https://i.ibb.co/S7tC5D98/malaika.jpg",
+                "product_image_url": "https://i.ibb.co/8gQ09kfP/malaika.jpg",
                 "product_category": "cabbage"
             },
             {
@@ -440,12 +440,12 @@
                 "product_shelf_life": "Good for distant transport with long shelf life",
                 "product_spacing": "50cm x 60cm",
                 "product_package_size": [5,10,25,50,100,250,500,1000],
-                "product_image_url": "https://i.ibb.co/S7tC5D98/malaika.jpg",
+                "product_image_url": "https://i.ibb.co/8gQ09kfP/malaika.jpg",
                 "product_category": "cabbage"
             }, 
             {
                 "id":1,
-                "product_name": "BROCOLLI F1",
+                "product_name": "BROCCOLI F1",
                 "product_germination": "",
                 "product_ready_for_harvest": "Ready for harvest in 90 - 100 days after transplanting",
                 "product_head": "Large compact global head of 5 – 7 kg",
@@ -453,7 +453,7 @@
                 "product_shelf_life": "Good for distant transport with long shelf life",
                 "product_spacing": "50cm x 60cm",
                 "product_package_size": [5,10,25,50,100,250,500,1000],
-                "product_image_url": "https://i.ibb.co/S7tC5D98/malaika.jpg",
+                "product_image_url": "https://i.ibb.co/m5jynZLD/broccoli.jpg",
                 "product_category": "cabbage"
             },
             {
