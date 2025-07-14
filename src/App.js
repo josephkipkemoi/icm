@@ -10,6 +10,7 @@ import { useEffect, useRef } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMicroscope, faSeedling, faUserDoctor, faVialCircleCheck } from '@fortawesome/free-solid-svg-icons';
 import ScrollToTopComponent from './components/scrollToTop';
+//making changes
 
 function App() {
     const topRef = useRef(null)
