@@ -8,7 +8,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Logo from "../images/logo512.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import { faSearch, faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
     return (
@@ -115,6 +115,10 @@ const HeaderComponent = () => {
                         <Link to="/faq" className="nav-link text-decoration-none"> 
                                 FAQ
                         </Link> 
+                       <Link to="/cart" className="btn  d-flex align-items-center">
+                            <FontAwesomeIcon icon={faShoppingCart} /> 
+                            <span className="m-1">Cart</span>
+                       </Link>
                     </Nav>
                     <Form className="d-flex">
                         <Form.Control

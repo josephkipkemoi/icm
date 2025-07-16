@@ -22,6 +22,7 @@ import NotFoundPage from './pages/not-found';
 import ProductItemPage from './pages/product-item';
 import ArticleItemPage from './pages/article-item';
 import CareerPage from './pages/career';
+import CartPage from './pages/cart.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
   {
     path: "/products",
     element: <ProductPage/>
+  },
+  {
+    path: "/cart",
+    element: <CartPage/>
   },
   {
     path: "/products/category/:product_category/:id",

@@ -66,6 +66,38 @@ const ProductItemComponent = () => {
         }      
     }
 
+    const handleAddToCart = () => {
+    if (!validateProductCart()) return;
+
+    const cartItem = {
+        id,
+        product_name,
+        size,
+        category: product_category,
+        image: product_image_url,
+        quantity: 1,
+    }
+
+    // Retrieve existing cart
+    const existingCart = JSON.parse(localStorage.getItem('cart')) || []
+
+    // Check if item with same id and size already exists
+    const itemIndex = existingCart.findIndex(item => item.id === id && item.size === size)
+
+    if (itemIndex > -1) {
+        existingCart[itemIndex].quantity += 1
+    } else {
+        existingCart.push(cartItem)
+    }
+
+    // Save back to localStorage
+    localStorage.setItem('cart', JSON.stringify(existingCart))
+
+    // Optional: feedback to user
+    alert(`${product_name} (${size}g) added to cart`)
+}
+
+
     const handlePickedSize = (val) => {
         setSize(val)
         setValidationError([])
@@ -97,7 +129,7 @@ const ProductItemComponent = () => {
                             </svg>  
                             <span> Share on Whatsapp</span>                           
                         </a>
-                        <button className="btn btn-primary m-1 d-flex align-items-center">
+                        <button className="btn btn-primary m-1 d-flex align-items-center" onClick={handleAddToCart}>
                             <FontAwesomeIcon icon={faShoppingCart} className="m-1" />                       
                             <span className="m-1">Add to Cart</span> 
                         </button> 
