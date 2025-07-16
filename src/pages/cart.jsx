@@ -75,7 +75,7 @@ const CartPage = () => {
                                         </td>
                                         <td>
                                             <button className="btn btn-danger btn-sm" onClick={() => removeItem(index)}>Remove</button>
-                                        </td>
+                                        </td> 
                                     </tr>
                                 ))}
                             </tbody>

@@ -14,7 +14,7 @@ const Footer = () => {
                     <div>
                         <div className="d-flex align-items-center">
                             <FontAwesomeIcon className="m-1" icon={faLocation} />
-                            <p className="m-1">Milimani Apartment G4, Lena Moi Road, Nakuru Kenya</p>
+                            <p className="m-1">Milimani Apartments G4, Lena Moi Road, Nakuru Kenya</p>
                         </div>
                         <div className="d-flex align-items-center">
                             <FontAwesomeIcon className="m-1" icon={faPhone} />
