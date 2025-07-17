@@ -56,4 +56,6 @@ nav {
 .nav-bg-component a:hover{
     color: lightgreen;
 }
- 
+.cart-counter {
+    margin-left: 6px;
+}
