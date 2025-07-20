@@ -61,7 +61,7 @@ const HeaderComponent = ({ updateCart }) => {
 
     const fetchCartFromLocalStorage = () => {
         const cartItems = JSON.parse(localStorage.getItem("cart"))
-        setCartCounter(cartItems.length)
+        setCartCounter(cartItems?.length)
     }
 
     useEffect(() => {
